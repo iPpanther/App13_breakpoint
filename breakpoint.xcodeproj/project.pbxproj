@@ -56,15 +56,55 @@
 		D26DF98D2255CBFD00D8F9E4 /* breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				D26DF9A62255CCA800D8F9E4 /* Services */,
+				D26DF9A52255CC7B00D8F9E4 /* Extensions */,
+				D26DF9A42255CC6500D8F9E4 /* Model */,
+				D26DF9A32255CC6000D8F9E4 /* View */,
+				D26DF9A22255CC5000D8F9E4 /* Controller */,
 				D26DF98E2255CBFD00D8F9E4 /* AppDelegate.swift */,
-				D26DF9902255CBFD00D8F9E4 /* FirstViewController.swift */,
-				D26DF9922255CBFD00D8F9E4 /* SecondViewController.swift */,
 				D26DF9942255CBFD00D8F9E4 /* Main.storyboard */,
 				D26DF9972255CBFE00D8F9E4 /* Assets.xcassets */,
 				D26DF9992255CBFE00D8F9E4 /* LaunchScreen.storyboard */,
 				D26DF99C2255CBFE00D8F9E4 /* Info.plist */,
 			);
 			path = breakpoint;
+			sourceTree = "<group>";
+		};
+		D26DF9A22255CC5000D8F9E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D26DF9902255CBFD00D8F9E4 /* FirstViewController.swift */,
+				D26DF9922255CBFD00D8F9E4 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D26DF9A32255CC6000D8F9E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D26DF9A42255CC6500D8F9E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D26DF9A52255CC7B00D8F9E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D26DF9A62255CCA800D8F9E4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
